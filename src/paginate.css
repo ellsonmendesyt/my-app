@@ -1,0 +1,29 @@
+.paginationBtns{
+    /* background-color: orange; */
+    list-style-type:none;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+.paginationBtns a{
+    padding: 5px;
+    margin: 8px;
+    border-radius: 5px;
+    border:1px solid #2980b9;
+    color:#2980b9;
+    cursor:pointer;
+}
+
+.paginationBtns a:hover, .paginationActive a{
+    color:#fff;
+    background-color: #2980b9;
+}
+
+
+@media (max-width:450px){
+    .paginationBtns a{
+        padding: 4px;
+        margin: 4px;
+    }
+}
